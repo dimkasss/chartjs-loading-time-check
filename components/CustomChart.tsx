@@ -2,7 +2,6 @@
 
 import {
   Line,
-  Chart as ReactChart,
   getDatasetAtEvent,
   getElementAtEvent,
   getElementsAtEvent,
@@ -24,7 +23,6 @@ ChartJS.register(
   LinearScale,
   PointElement,
   LineElement,
-
   Title,
   Tooltip,
   Legend
