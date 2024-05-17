@@ -1,0 +1,1 @@
+# chartjs-loading-time-check
