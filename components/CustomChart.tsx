@@ -1,7 +1,7 @@
 "use client";
 
 import {
-  Chart,
+  Chart as ReactChart,
   getDatasetAtEvent,
   getElementAtEvent,
   getElementsAtEvent,
@@ -52,7 +52,7 @@ const CustomChart = () => {
   const chartRef = useRef(null);
   if (chartRef == null) return <div>Loading...</div>;
   return (
-    <Chart
+    <ReactChart
       ref={chartRef}
       type="line"
       data={data}
